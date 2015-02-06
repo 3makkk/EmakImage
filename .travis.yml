@@ -1,0 +1,14 @@
+language: php
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+
+install:
+ - composer install --prefer-dist
+
+script: phpunit --configuration test/phpunit.xml.dist
+
+notifications:
+  slack: erstellbar:Ny185e1y8I7XTCbFasTTevEn

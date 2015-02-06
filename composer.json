@@ -1,0 +1,28 @@
+{
+    "name": "3makkk/emak-image",
+    "description": "Image transformation filter for ZF2 via Imagine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Friedemann",
+            "email": "sven@erstellbar.de"
+        }
+    ],
+    "require": {
+        "imagine/Imagine": "0.*",
+        "zendframework/zend-filter": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "EmakImage": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "EmakImageTest": "tests/"
+        }
+    }
+}

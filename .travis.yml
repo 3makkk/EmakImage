@@ -8,7 +8,7 @@ php:
 install:
  - composer install --prefer-dist
 
-script: phpunit --configuration test/phpunit.xml.dist
+script: phpunit --configuration tests/phpunit.xml.dist
 
 notifications:
   slack: erstellbar:Ny185e1y8I7XTCbFasTTevEn

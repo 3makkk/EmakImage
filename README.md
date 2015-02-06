@@ -60,6 +60,7 @@ The following options are supported for ```EmakImage\Filter\File\Watermark```
 All filters are available via the filter manager.
  * File\Filter\Image\Thumbnail => ```EmakImage\Filter\File\Thumbnail```
  * File\Filter\Image\Resize => ```EmakImage\Filter\File\Resize```
+ * File\Filter\Image\Watermark => ```EmakImage\Filter\File\Watermark```
 
 
 
